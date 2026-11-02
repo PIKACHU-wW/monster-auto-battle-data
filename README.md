@@ -37,19 +37,24 @@ The initial snapshot is NOT a valid empty entitlement list.
 
 ## Publication
 ### Read-only world leaderboard contract
-The world panel now reads this URL and opens on the leaderboard by default.
-Live records are not published yet. A ready snapshot must include integer
-revision and UTC dataAsOf. ranking.state must be "published" and
-ranking.valueCurrency must be "USD". Each ranking.entries row has rank
-(consecutive integer starting at 1), playerKey (unique public key, max 128
-characters), displayName (max 80 characters, no newlines), and amountUsdMinor
-(positive integer USD-equivalent cents, bounded at 1e12). Sort descending by
-amountUsdMinor; the server resolves ties by the earlier reached total.
-The client paginates eight rows and does not grant ownership from rankings.
-It rejects invalid snapshots, duplicates and older revisions while retaining
-the current session's last valid data. Limit: 20,000 rows / 4 million JSON
-characters. No fixture records are published. This is editor-verified only;
-the updated world has not been built/uploaded or tested in the VRChat client.
+Current roster source: supporters, not ranking.entries. Ready snapshots require
+schemaVersion=1, state="ready", increasing integer revision and UTC dataAsOf.
+Each supporter has unique playerKey, displayName and positive integer
+amountUsdMinor, sorted descending. The server resolves ties by earlier totals.
+During not_settled, the first 50 supporters display Dragon-Blessed; all later
+supporters display purple Dragon's Kin. After finalized, settlement.winners
+freezes the final winner set (at most 50 unique supporter keys).
+These are display titles, NEVER permanent VIP entitlement grants.
+
+For world head-card identity, require identityScheme=
+"verified_vrc_display_name_v1" and an individually reviewed vrcDisplayName on
+that supporter row. Names must be unique and match the current VRChat display
+name exactly. Do not promote payment remarks or parsed_unverified identities.
+A missing verified name allows roster display but no world title assignment.
+World and web refresh about once per minute, retaining valid data on errors.
+Live payment-to-verified-publication automation is still not connected;
+the public bootstrap remains not_initialized and contains no real players.
+Permanent VIP delivery and the separate memorial panel are future work.
 
 ### Server publisher
 The server remains authoritative. It must generate an allowlisted snapshot
