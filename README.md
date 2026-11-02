@@ -24,7 +24,7 @@ The initial snapshot is NOT a valid empty entitlement list.
 - ranking.entries, supporters and entitlements share one snapshot revision.
   Player-entry schema and identity verification must be finalized before state
   can become ready. Do not match payment identities by unverified display name.
-- Early Supporter is for any eligible purchase/blessing during testing, with
+- Dragon’s Kin is for any eligible purchase/blessing during testing, with
   no recipient limit; the earned title remains after testing.
 - Only the final top 50 receive the permanent red Dragon-Blessed title and
   all VIP benefits, future content and maps. Current rank does not grant this.
