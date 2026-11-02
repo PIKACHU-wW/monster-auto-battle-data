@@ -36,6 +36,22 @@ The initial snapshot is NOT a valid empty entitlement list.
   names, platform transaction IDs, webhook bodies or credentials.
 
 ## Publication
+### Read-only world leaderboard contract
+The world panel now reads this URL and opens on the leaderboard by default.
+Live records are not published yet. A ready snapshot must include integer
+revision and UTC dataAsOf. ranking.state must be "published" and
+ranking.valueCurrency must be "USD". Each ranking.entries row has rank
+(consecutive integer starting at 1), playerKey (unique public key, max 128
+characters), displayName (max 80 characters, no newlines), and amountUsdMinor
+(positive integer USD-equivalent cents, bounded at 1e12). Sort descending by
+amountUsdMinor; the server resolves ties by the earlier reached total.
+The client paginates eight rows and does not grant ownership from rankings.
+It rejects invalid snapshots, duplicates and older revisions while retaining
+the current session's last valid data. Limit: 20,000 rows / 4 million JSON
+characters. No fixture records are published. This is editor-verified only;
+the updated world has not been built/uploaded or tested in the VRChat client.
+
+### Server publisher
 The server remains authoritative. It must generate an allowlisted snapshot
 only from verified ledger records, validate it, then atomically update this
 single JSON file. GitHub failure must not block payment ingestion. This
