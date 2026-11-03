@@ -1,13 +1,19 @@
 {
   "schemaVersion": 1,
   "state": "ready",
-  "revision": 1,
-  "dataAsOf": "2026-11-03T07:19:59.240117+00:00",
+  "revision": 2,
+  "dataAsOf": "2026-11-03T07:21:06.642606+00:00",
   "identityScheme": "verified_vrc_display_name_v1",
   "testMarker": "synthetic_server_to_world_smoke_v1",
   "environment": "diagnostic_only",
-  "phase": 1,
+  "phase": 2,
   "supporters": [
+    {
+      "playerKey": "smoke-player-051",
+      "displayName": "TEST ONLY 051",
+      "vrcDisplayName": "MAB-SYNTHETIC-051",
+      "amountUsdMinor": 20000
+    },
     {
       "playerKey": "smoke-player-001",
       "displayName": "TEST ONLY 001",
@@ -307,12 +313,6 @@
       "displayName": "TEST ONLY 050",
       "vrcDisplayName": "MAB-SYNTHETIC-050",
       "amountUsdMinor": 5000
-    },
-    {
-      "playerKey": "smoke-player-051",
-      "displayName": "TEST ONLY 051",
-      "vrcDisplayName": "MAB-SYNTHETIC-051",
-      "amountUsdMinor": 4900
     },
     {
       "playerKey": "smoke-player-052",
