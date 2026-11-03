@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "state": "ready",
+  "revision": 1,
+  "dataAsOf": "2026-11-03T07:19:59.240117+00:00",
+  "identityScheme": "verified_vrc_display_name_v1",
+  "testMarker": "synthetic_server_to_world_smoke_v1",
+  "environment": "diagnostic_only",
+  "phase": 1,
+  "supporters": [
+    {
+      "playerKey": "smoke-player-001",
+      "displayName": "TEST ONLY 001",
+      "vrcDisplayName": "MAB-SYNTHETIC-001",
+      "amountUsdMinor": 9900
+    },
+    {
+      "playerKey": "smoke-player-002",
+      "displayName": "TEST ONLY 002",
+      "vrcDisplayName": "MAB-SYNTHETIC-002",
+      "amountUsdMinor": 9800
+    },
+    {
+      "playerKey": "smoke-player-003",
+      "displayName": "TEST ONLY 003",
+      "vrcDisplayName": "MAB-SYNTHETIC-003",
+      "amountUsdMinor": 9700
+    },
+    {
+      "playerKey": "smoke-player-004",
+      "displayName": "TEST ONLY 004",
+      "vrcDisplayName": "MAB-SYNTHETIC-004",
+      "amountUsdMinor": 9600
+    },
+    {
+      "playerKey": "smoke-player-005",
+      "displayName": "TEST ONLY 005",
+      "vrcDisplayName": "MAB-SYNTHETIC-005",
+      "amountUsdMinor": 9500
+    },
+    {
+      "playerKey": "smoke-player-006",
+      "displayName": "TEST ONLY 006",
+      "vrcDisplayName": "MAB-SYNTHETIC-006",
+      "amountUsdMinor": 9400
+    },
+    {
+      "playerKey": "smoke-player-007",
+      "displayName": "TEST ONLY 007",
+      "vrcDisplayName": "MAB-SYNTHETIC-007",
+      "amountUsdMinor": 9300
+    },
+    {
+      "playerKey": "smoke-player-008",
+      "displayName": "TEST ONLY 008",
+      "vrcDisplayName": "MAB-SYNTHETIC-008",
+      "amountUsdMinor": 9200
+    },
+    {
+      "playerKey": "smoke-player-009",
+      "displayName": "TEST ONLY 009",
+      "vrcDisplayName": "MAB-SYNTHETIC-009",
+      "amountUsdMinor": 9100
+    },
+    {
+      "playerKey": "smoke-player-010",
+      "displayName": "TEST ONLY 010",
+      "vrcDisplayName": "MAB-SYNTHETIC-010",
+      "amountUsdMinor": 9000
+    },
+    {
+      "playerKey": "smoke-player-011",
+      "displayName": "TEST ONLY 011",
+      "vrcDisplayName": "MAB-SYNTHETIC-011",
+      "amountUsdMinor": 8900
+    },
+    {
+      "playerKey": "smoke-player-012",
+      "displayName": "TEST ONLY 012",
+      "vrcDisplayName": "MAB-SYNTHETIC-012",
+      "amountUsdMinor": 8800
+    },
+    {
+      "playerKey": "smoke-player-013",
+      "displayName": "TEST ONLY 013",
+      "vrcDisplayName": "MAB-SYNTHETIC-013",
+      "amountUsdMinor": 8700
+    },
+    {
+      "playerKey": "smoke-player-014",
+      "displayName": "TEST ONLY 014",
+      "vrcDisplayName": "MAB-SYNTHETIC-014",
+      "amountUsdMinor": 8600
+    },
+    {
+      "playerKey": "smoke-player-015",
+      "displayName": "TEST ONLY 015",
+      "vrcDisplayName": "MAB-SYNTHETIC-015",
+      "amountUsdMinor": 8500
+    },
+    {
+      "playerKey": "smoke-player-016",
+      "displayName": "TEST ONLY 016",
+      "vrcDisplayName": "MAB-SYNTHETIC-016",
+      "amountUsdMinor": 8400
+    },
+    {
+      "playerKey": "smoke-player-017",
+      "displayName": "TEST ONLY 017",
+      "vrcDisplayName": "MAB-SYNTHETIC-017",
+      "amountUsdMinor": 8300
+    },
+    {
+      "playerKey": "smoke-player-018",
+      "displayName": "TEST ONLY 018",
+      "vrcDisplayName": "MAB-SYNTHETIC-018",
+      "amountUsdMinor": 8200
+    },
+    {
+      "playerKey": "smoke-player-019",
+      "displayName": "TEST ONLY 019",
+      "vrcDisplayName": "MAB-SYNTHETIC-019",
+      "amountUsdMinor": 8100
+    },
+    {
+      "playerKey": "smoke-player-020",
+      "displayName": "TEST ONLY 020",
+      "vrcDisplayName": "MAB-SYNTHETIC-020",
+      "amountUsdMinor": 8000
+    },
+    {
+      "playerKey": "smoke-player-021",
+      "displayName": "TEST ONLY 021",
+      "vrcDisplayName": "MAB-SYNTHETIC-021",
+      "amountUsdMinor": 7900
+    },
+    {
+      "playerKey": "smoke-player-022",
+      "displayName": "TEST ONLY 022",
+      "vrcDisplayName": "MAB-SYNTHETIC-022",
+      "amountUsdMinor": 7800
+    },
+    {
+      "playerKey": "smoke-player-023",
+      "displayName": "TEST ONLY 023",
+      "vrcDisplayName": "MAB-SYNTHETIC-023",
+      "amountUsdMinor": 7700
+    },
+    {
+      "playerKey": "smoke-player-024",
+      "displayName": "TEST ONLY 024",
+      "vrcDisplayName": "MAB-SYNTHETIC-024",
+      "amountUsdMinor": 7600
+    },
+    {
+      "playerKey": "smoke-player-025",
+      "displayName": "TEST ONLY 025",
+      "vrcDisplayName": "MAB-SYNTHETIC-025",
+      "amountUsdMinor": 7500
+    },
+    {
+      "playerKey": "smoke-player-026",
+      "displayName": "TEST ONLY 026",
+      "vrcDisplayName": "MAB-SYNTHETIC-026",
+      "amountUsdMinor": 7400
+    },
+    {
+      "playerKey": "smoke-player-027",
+      "displayName": "TEST ONLY 027",
+      "vrcDisplayName": "MAB-SYNTHETIC-027",
+      "amountUsdMinor": 7300
+    },
+    {
+      "playerKey": "smoke-player-028",
+      "displayName": "TEST ONLY 028",
+      "vrcDisplayName": "MAB-SYNTHETIC-028",
+      "amountUsdMinor": 7200
+    },
+    {
+      "playerKey": "smoke-player-029",
+      "displayName": "TEST ONLY 029",
+      "vrcDisplayName": "MAB-SYNTHETIC-029",
+      "amountUsdMinor": 7100
+    },
+    {
+      "playerKey": "smoke-player-030",
+      "displayName": "TEST ONLY 030",
+      "vrcDisplayName": "MAB-SYNTHETIC-030",
+      "amountUsdMinor": 7000
+    },
+    {
+      "playerKey": "smoke-player-031",
+      "displayName": "TEST ONLY 031",
+      "vrcDisplayName": "MAB-SYNTHETIC-031",
+      "amountUsdMinor": 6900
+    },
+    {
+      "playerKey": "smoke-player-032",
+      "displayName": "TEST ONLY 032",
+      "vrcDisplayName": "MAB-SYNTHETIC-032",
+      "amountUsdMinor": 6800
+    },
+    {
+      "playerKey": "smoke-player-033",
+      "displayName": "TEST ONLY 033",
+      "vrcDisplayName": "MAB-SYNTHETIC-033",
+      "amountUsdMinor": 6700
+    },
+    {
+      "playerKey": "smoke-player-034",
+      "displayName": "TEST ONLY 034",
+      "vrcDisplayName": "MAB-SYNTHETIC-034",
+      "amountUsdMinor": 6600
+    },
+    {
+      "playerKey": "smoke-player-035",
+      "displayName": "TEST ONLY 035",
+      "vrcDisplayName": "MAB-SYNTHETIC-035",
+      "amountUsdMinor": 6500
+    },
+    {
+      "playerKey": "smoke-player-036",
+      "displayName": "TEST ONLY 036",
+      "vrcDisplayName": "MAB-SYNTHETIC-036",
+      "amountUsdMinor": 6400
+    },
+    {
+      "playerKey": "smoke-player-037",
+      "displayName": "TEST ONLY 037",
+      "vrcDisplayName": "MAB-SYNTHETIC-037",
+      "amountUsdMinor": 6300
+    },
+    {
+      "playerKey": "smoke-player-038",
+      "displayName": "TEST ONLY 038",
+      "vrcDisplayName": "MAB-SYNTHETIC-038",
+      "amountUsdMinor": 6200
+    },
+    {
+      "playerKey": "smoke-player-039",
+      "displayName": "TEST ONLY 039",
+      "vrcDisplayName": "MAB-SYNTHETIC-039",
+      "amountUsdMinor": 6100
+    },
+    {
+      "playerKey": "smoke-player-040",
+      "displayName": "TEST ONLY 040",
+      "vrcDisplayName": "MAB-SYNTHETIC-040",
+      "amountUsdMinor": 6000
+    },
+    {
+      "playerKey": "smoke-player-041",
+      "displayName": "TEST ONLY 041",
+      "vrcDisplayName": "MAB-SYNTHETIC-041",
+      "amountUsdMinor": 5900
+    },
+    {
+      "playerKey": "smoke-player-042",
+      "displayName": "TEST ONLY 042",
+      "vrcDisplayName": "MAB-SYNTHETIC-042",
+      "amountUsdMinor": 5800
+    },
+    {
+      "playerKey": "smoke-player-043",
+      "displayName": "TEST ONLY 043",
+      "vrcDisplayName": "MAB-SYNTHETIC-043",
+      "amountUsdMinor": 5700
+    },
+    {
+      "playerKey": "smoke-player-044",
+      "displayName": "TEST ONLY 044",
+      "vrcDisplayName": "MAB-SYNTHETIC-044",
+      "amountUsdMinor": 5600
+    },
+    {
+      "playerKey": "smoke-player-045",
+      "displayName": "TEST ONLY 045",
+      "vrcDisplayName": "MAB-SYNTHETIC-045",
+      "amountUsdMinor": 5500
+    },
+    {
+      "playerKey": "smoke-player-046",
+      "displayName": "TEST ONLY 046",
+      "vrcDisplayName": "MAB-SYNTHETIC-046",
+      "amountUsdMinor": 5400
+    },
+    {
+      "playerKey": "smoke-player-047",
+      "displayName": "TEST ONLY 047",
+      "vrcDisplayName": "MAB-SYNTHETIC-047",
+      "amountUsdMinor": 5300
+    },
+    {
+      "playerKey": "smoke-player-048",
+      "displayName": "TEST ONLY 048",
+      "vrcDisplayName": "MAB-SYNTHETIC-048",
+      "amountUsdMinor": 5200
+    },
+    {
+      "playerKey": "smoke-player-049",
+      "displayName": "TEST ONLY 049",
+      "vrcDisplayName": "MAB-SYNTHETIC-049",
+      "amountUsdMinor": 5100
+    },
+    {
+      "playerKey": "smoke-player-050",
+      "displayName": "TEST ONLY 050",
+      "vrcDisplayName": "MAB-SYNTHETIC-050",
+      "amountUsdMinor": 5000
+    },
+    {
+      "playerKey": "smoke-player-051",
+      "displayName": "TEST ONLY 051",
+      "vrcDisplayName": "MAB-SYNTHETIC-051",
+      "amountUsdMinor": 4900
+    },
+    {
+      "playerKey": "smoke-player-052",
+      "displayName": "TEST ONLY 052",
+      "vrcDisplayName": "MAB-SYNTHETIC-052",
+      "amountUsdMinor": 4800
+    }
+  ],
+  "settlement": {
+    "state": "not_settled",
+    "winners": []
+  }
+}
